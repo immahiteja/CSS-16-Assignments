@@ -1,0 +1,56 @@
+body{
+    padding: 10px;
+}
+h2{
+    background-color: bisque;
+    text-align: center;
+    padding: 5px;
+}
+input[type=text],input[type=email]{
+    width: 250px;
+    height: 20px;
+    margin-top: 30px;
+}
+.container{
+    text-align: justify;
+    padding: 20px;
+    background-color: aquamarine;
+    width: 600px;
+    margin-left: 380px;
+}
+p{ 
+    font-size: 20px;
+}
+table{
+    background-color: antiquewhite;
+    text-align: left;
+    align-items: center;
+    margin-left: 20px;
+    width: 550px;
+    border-collapse:collapse;
+}
+td{
+    padding: 10px;
+}
+#terms{
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+#terms:checked{
+    outline: 2px solid blue;
+}
+button{
+    width: 120px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 37%;
+}
+button:hover{
+    background-color: rgb(143, 143, 247);
+    cursor: pointer;
+}
+
+
+
+
+

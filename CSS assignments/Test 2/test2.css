@@ -1,0 +1,70 @@
+body{
+    padding: 10px;
+    background: rgb(241, 204, 204);
+}
+header{
+    text-align: center;
+    font-size: 30px;
+    text-transform:capitalize;
+    margin-bottom: 10px;
+}
+form{
+    background-color: rgb(206, 121, 248);
+    padding: 30px;
+    border-radius: 20px;
+}
+h3{
+    margin-top: 10px;
+    background-color: rgb(163, 236, 185);
+    padding: 10px;
+    text-align: center;
+    text-transform:capitalize;
+    color:rgb(112, 13, 91);
+    font-size: 20px;
+}
+input{
+   margin-top: 10px; 
+   width: 200px;
+   padding: 10px;
+   border-radius: 5px;
+}
+input[type=text] {
+   border: 2px solid blue;
+   margin-left: 50px;
+}
+input[type=number] {
+   width: 80px;
+   border: 2px solid green;
+   margin-left: 65px;
+}
+input[type=email]{
+    border-color: chartreuse;
+    margin-left: 1px;
+}
+#feedback{
+    border-color: rgb(55, 206, 206);
+    width: 300px;
+    height: 60px; 
+    margin-left: 30px;
+}
+input[type=submit] {
+    width: 150px;
+    padding: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+ }
+.reset{
+    margin-left: 30px;
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+

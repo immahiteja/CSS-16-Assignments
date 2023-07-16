@@ -1,0 +1,55 @@
+body{
+    background-image: url('body4.jpg');
+    background-attachment: fixed;
+    background-size: 100% 130%;
+    background-position: center;
+}
+h2{
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 255, 34);
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+}
+h4{
+    text-align: center;
+    font-size: 20px;
+}
+fieldset{
+    width: 400px;
+    height: 100%;
+    border: 0px;
+    text-align: center;
+}
+form{
+    padding: 10px;
+    color: white;
+}
+input{
+    background:local;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: white;
+}
+hr{
+    margin-top: 35px;
+    border-bottom: 2px;
+    background-color: antiquewhite;
+}
+#sub{
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: rgb(0, 173, 253);
+    border-color: chartreuse;
+    border-radius: 10px;
+    border: 2px;
+}
+#sub:hover{
+    background-color: rgb(0, 255, 13);
+    cursor: pointer;
+}
+
+
+
+

@@ -1,0 +1,50 @@
+body{
+    margin: 10px;
+    padding: 10px;
+}
+h2{
+    text-align: center;
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+p{
+    margin-left: 70px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.name,.email,.number{
+    background-color: white;
+
+}
+.checkbox-container {
+margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+display: none;
+}
+label {
+display: inline-block;
+background-color: #ecbaba;
+padding: 10px;
+border-radius: 4px;
+cursor: pointer;
+}
+input[type="checkbox"]:checked + label {
+background-color: #2196F3;
+color: white;
+}
+#submit{
+    background-color:rgb(124, 248, 8);
+    border: 1px;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 35px;
+}
+#submit:hover{
+    background-color: yellowgreen;
+}

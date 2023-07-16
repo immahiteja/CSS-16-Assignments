@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio buttons and Checkboxes</title>
+    <link rel="stylesheet" href="Test5.css">
+</head>
+<body>
+    <h2>Multiple radio buttons and check boxes</h2><br>
+    <p>fill the favourites form below</p>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter Your Name" required><br><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" placeholder="Enter Your Age" min="1" max="100" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter Your Email id" required><br><br>
+        <div><label>Gender:</label></div>        
+        <div><label for="gender"></div>
+        <div><input type="radio" name="gender" id="gender" value="male" >Male</label>
+        <label  for="gender">
+        <input type="radio" name="gender" value="female" >Female</label>
+        <label for="gender">
+        <input type="radio" name="gender" value="other" >Other</label></div>
+        <br>
+        <label>Favourite color:</label></div>
+        <div><label><input type="checkbox" class="white" name="color" value="white"/>White</label>
+        <label><input type="checkbox" class="black" name="color" value="black"/>Black</label><br><br>
+        <label><input type="checkbox" class="blue" name="color" value="blue"/>Blue</label>
+        <label><input type="checkbox" class="green" name="color" value="green"/>Green</label><br><br>
+        <label><input type="checkbox" class="red" name="color" value="red"/>Red</label>
+        <label><input type="checkbox" class="yellow" name="yellow" value="yellow"/>Yellow</label></div>
+        <label for="Submit"></label>
+        <input type="submit" id="submit" value="Submit">
+</form>
+</body>
+</html> 
+

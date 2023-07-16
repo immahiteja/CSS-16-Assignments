@@ -1,0 +1,48 @@
+body{
+    margin: 10px ;
+    padding: 10px ;
+}
+form{
+    padding: 20px;
+    background-color: antiquewhite;
+    width: 280px;
+    border-radius: 10px;
+}
+p{
+    text-align: center;
+}
+.logins{
+    text-size-adjust: 16px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+}
+.forgotid{
+    margin-left: 180px;
+    margin-top: 5px;
+}
+.forgotp{
+    margin-left: 140px;
+    margin-top: 5px;
+}
+.button {
+    background-color: #79b3e9; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px; 
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-left: 65px;
+    cursor: pointer; 
+}
+.button:hover {
+   background-color: #3e8e41;
+}
+
+
+
+

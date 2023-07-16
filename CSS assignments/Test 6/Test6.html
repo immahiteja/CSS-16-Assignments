@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="Test6.css">
+</head>
+<body>
+  <h2>Css styles for Survey form</h2>
+  <fieldset>
+  <p>fill the Survey form below</p>
+  <form action="">
+    <details>This is just a Feedback form please help us by giving your valuable feedback. Your survey will kept anonymous</details><br>
+    <div><label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required></div>
+    <div><label for="email">Email:</label><br>
+    <input type="text" id="email" name="email" required></div>
+    <div><label for="age">Age:</label><br>
+    <input type="number" id="age" name="age" min="18" max="40" required></div>
+    <div><label for="radio">Gender:</label><br>
+    <label for="gender">
+    <input type="radio" id="gender" name="gender" required >Male</label>
+    <label for="gender">
+    <input type="radio" id="gender" name="gender" required >Female</label>
+    <label for="gender">
+    <input type="radio" id="gender" name="gender" required >Prefer not to say</label></div><br>
+    <div><label for=""></label></div>
+    <div><label for="feedback">Feedback:</label><br>
+    <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea></div>
+    <div><label for="rate">Rate us:</label><br>
+    <select id="rate" name="rate" required>
+      <option value="5">5 stars</option>
+      <option value="4">4 stars</option>
+      <option value="3">3 stars</option>
+      <option value="2">2 stars</option>
+      <option value="1">1 star</option>
+    </select></div><br>
+    <div><input type="submit" value="Submit" class="submit" id="submit"></div>
+</form> 
+</fieldset>
+</body> 
+</html>
+
+
+
+
+
+
+

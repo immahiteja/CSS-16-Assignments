@@ -1,0 +1,107 @@
+body{
+    background: url('pexels-abhishek-gaurav-1265584.jpg');
+    background-repeat: no-repeat;
+    background-size:100% 130%;
+    background-attachment: fixed;
+    background-position: center;
+    image-resolution: 100%;
+}
+h2{
+    background-color: chartreuse;
+    text-align: center;
+}
+p{
+    color: rgb(216, 183, 240);
+    text-align: center;
+    font-size: 18px;
+}
+hr{
+    color: #635f5f;
+    border-bottom: 2px;
+}
+fieldset{
+    border: 0px;
+    background: url('form3.jpg');
+    background-repeat: no-repeat;
+    background-size:30% 100%;
+    background-attachment:fixed;
+    background-position: center;
+    text-decoration: solid;
+    font-size: 20px;
+    height: 100%;
+    margin-left: 35%;
+    margin-right: 37%;
+    margin-top: 5%;
+    color: #ffffff;
+}
+form{
+    margin-left: 5%;
+    text-align: center;
+    height: 100%;
+    width: 300px;
+}
+label{
+    font-size: large;
+}
+input{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    text-decoration: solid;
+    width: 90%;
+    height: 30px;
+    background:local;
+    border-radius: 20px;
+    color: #000000;
+    border: 3px;
+}
+#submit{
+    background-color: rgb(35, 241, 35);
+    height: 40px;
+}
+#submit:hover{
+    background-color: rgb(240, 222, 61);
+}
+h5 {
+    display: flex;
+    flex-direction: row;
+    text-shadow: #060924;
+    color: #ffffff;
+}
+h5:before,
+h5:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #635f5f;
+    margin: auto;
+}
+button{
+    border-radius: 20px;
+}
+.google{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin-left: 20%;
+    background-color: orange;
+}
+.fb{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin-left: 20%;
+    background-color: rgb(247, 197, 236);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
